@@ -5,10 +5,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="fshadid.interactivestory.MainActivity">
+    tools:context="fshadid.interactivestory.UI.MainActivity">
 
     <ImageView
-        android:contentDescription="Signals From Mars image "
+        android:contentDescription="@string/signals_from_mars_image"
         android:id="@+id/titleImageView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
