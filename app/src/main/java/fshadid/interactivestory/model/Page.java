@@ -12,6 +12,14 @@ public class Page {
     private int textId;
     private Choice choice;
     private Choice choice1;
+    private boolean isFinalPage = false;
+
+
+    public Page(int imageId, int textId) {
+        this.imageId = imageId;
+        this.textId = textId;
+        isFinalPage = true;
+    }
 
     public Page(int imageId, int textId, Choice choice, Choice choice1) {
         this.imageId = imageId;
